@@ -12,7 +12,7 @@ class MovieList extends Component {
                         <img src={'https://image.tmdb.org/t/p/w185_and_h278_bestv2' + eachMovieDataItem.poster_path} alt ={'Poster image of the movie ' + eachMovieDataItem.title} /> 
                         <h3>Release Date: {eachMovieDataItem.release_date.split('-')[1] + " - " + eachMovieDataItem.release_date.split('-')[2] + " - " + eachMovieDataItem.release_date.split('-')[0]}</h3>
                         <h4> Average Voter Rating: {eachMovieDataItem.vote_average}</h4>
-                        <p className="width">{eachMovieDataItem.overview}</p>
+                        <p className="info">{eachMovieDataItem.overview}</p>
                         </section>
                     )
                 })

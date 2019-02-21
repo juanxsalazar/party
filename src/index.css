@@ -19,6 +19,11 @@ padding: .1rem;}
 
 section {text-align: center;}
 
-.width {
-  
+
+.info {
+  width: auto;
+  margin: 1rem;
+  padding: 1rem;
+ border: .25rem solid rgb(39, 35, 35);
+ background-color: rgb(240, 230, 230);
 }
